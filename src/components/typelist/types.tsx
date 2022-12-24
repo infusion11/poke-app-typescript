@@ -126,7 +126,7 @@ const Types = () => {
                     <option defaultValue={''} key={'type'} hidden>Select type!</option>
                     {options.map( ( {name, url}: any ) => {
                     return(
-                        <option key={`${url}}`} value={url}>{name}</option>
+                        <option key={`${url}`} value={url}>{name}</option>
                         )
                 })}
                 </select>
