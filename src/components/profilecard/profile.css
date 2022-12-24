@@ -1,0 +1,40 @@
+.profileInfo {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    border: 2px #f0fbff solid;
+    border-radius: 4px;
+    text-align: center;
+}
+.profileImage img {
+    width: 200px;
+    height: 200px;
+}
+#catchRelease {
+    align-self: center;
+    width: 80px;
+    height: 40px;
+    border-radius: 6px;
+    font-size: 16px;
+    border: none;
+    color: #000000;
+    background-color: #f0fbff;
+    cursor: pointer;
+}
+#catchRelease:hover {
+    color: #ffffff;
+    background-color: #5c636e;
+    cursor: pointer;
+}
+.prevButton a {
+    font-size: 23px;
+    padding: 5px;
+    border: 2px solid;
+    border-color: #f0fbff;
+    border-radius: 12px;
+}
+.prevButton a:hover {
+    color: #ffffff;
+    background-color: #5c636e;
+}

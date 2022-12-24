@@ -1,0 +1,80 @@
+.Types {
+    margin-left: 70px;
+    margin-top: 70px;
+    font-size: 20px;
+}
+.listDiv {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.listDiv select {
+    background-color: #e7eaf6;
+    font-size: 16px;
+    padding: 2px 4px;
+    cursor: pointer;
+}
+.listDiv select option {
+    background-color: #f0fbff;
+    padding-left: 5px;
+}
+.searchDiv {
+    margin: 25px;
+}
+.searchLabel {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 22px;
+}
+.searchNames {
+    margin-top: 5px;
+}
+#searchInput {
+    font-size: 16px;
+    padding: 1px 9px;
+    background-color: #f0fbff;
+    border: none;
+    border-radius: 6px;
+}
+#searchInput::placeholder {
+    color: #000000;
+}
+#searchButton {
+    margin-left: 5px;
+    border-radius: 6px;
+    font-size: 16px;
+    padding: 1px 9px;
+    border: none;
+    color: #000000;
+    background-color: #f0fbff;
+    cursor: pointer;
+}
+#searchButton:hover {
+    color: #ffffff;
+    background-color: #5c636e;
+    cursor: pointer;
+}
+.searchCatched {
+    display: flex;
+}
+#catchedCheck {
+    width: 14px;
+    margin-right: 6px;
+    margin-left: 2px;
+}
+.searchCatched p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+.singlePokemon {
+    max-width: 250px;
+    height: 30px;
+    font-size: 22px;
+    line-height: 30px;
+    padding-left: 20px;
+    background-color: #f0fbff;
+    border-radius: 6px;
+    margin: 10px;
+    margin-left: 25px;
+}
+.singlePokemon.singleCatchedPokemon {
+    background-color: #b6cdbd;
+}
